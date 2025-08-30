@@ -41,4 +41,4 @@ ggplot() +
   )
 
 # Save Map ----------------------------------------------------------------
-ggsave("robinson_map.png", width = 10, height = 6, dpi = 300)
+ggsave("robinson_map.png", width = 10, height = 6, dpi = 300, bg = "white")
