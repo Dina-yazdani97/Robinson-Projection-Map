@@ -2,6 +2,7 @@
 library(sf)
 library(rnaturalearth)
 library(ggplot2)
+library(extrafont)
 
 # Download country boundaries and ocean data ------------------------------
 world_countries <- ne_countries(scale = 'medium', returnclass = 'sf')
